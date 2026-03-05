@@ -10,7 +10,7 @@ README:
 3. Run blur.exe
 
 NOTE: if any changes are made to main.cpp you will have to rebuild in x64 Native Tools for Developers terminal
-  ->  nvcc main.cpp gaussian.cu -o blur -I"D:\opencv\build\include" -L"D:\opencv\build\x64\vc16\lib" -lopencv_world490
+  ->  nvcc main.cpp gaussian.cu -o blur -I"(OpenCV_LOCATION\opencv\build\include" -L"D:\OpenCV_Location\build\x64\vc16\lib" -lopencv_world490
 <br>
 ![image](https://github.com/user-attachments/assets/01653147-4702-41e2-8438-a4cb0d0c427c)
 
