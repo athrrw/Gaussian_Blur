@@ -8,3 +8,10 @@ README:
 1. Make sure you have opencv_world490.dll file in the folder you are running
 2. Save a image as image.png (this is the image you want to blur) in the folder
 3. Run blur.exe
+
+NOTE: if any changes are made to main.cpp you will have to rebuild in x64 Native Tools for Developers terminal
+  ->  nvcc main.cpp gaussian.cu -o blur -I"D:\opencv\build\include" -L"D:\opencv\build\x64\vc16\lib" -lopencv_world490
+
+
+Blurred output when sigma = 1.0f
+<img width="287" height="176" alt="blurred" src="https://github.com/user-attachments/assets/3bb2455e-2a9e-46b9-ae39-5501558963ce" />
