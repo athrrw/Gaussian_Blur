@@ -11,7 +11,9 @@ README:
 
 NOTE: if any changes are made to main.cpp you will have to rebuild in x64 Native Tools for Developers terminal
   ->  nvcc main.cpp gaussian.cu -o blur -I"D:\opencv\build\include" -L"D:\opencv\build\x64\vc16\lib" -lopencv_world490
-
+<br>
+![image](https://github.com/user-attachments/assets/01653147-4702-41e2-8438-a4cb0d0c427c)
 
 Blurred output when sigma = 1.0f
+<br>
 <img width="287" height="176" alt="blurred" src="https://github.com/user-attachments/assets/3bb2455e-2a9e-46b9-ae39-5501558963ce" />
